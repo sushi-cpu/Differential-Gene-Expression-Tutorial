@@ -42,6 +42,9 @@ install.packages(c("ggplot2", "pheatmap", "EnhancedVolcano"))
 BiocManager::install(c("limma", "affy"))
 ```
 
+# About the dataset
+The GSE29431 dataset comprises gene expression profiles from human breast cancer and normal breast tissue, with a focus on HER2-positive tumors. It includes 28 HER2-positive breast cancer samples and 12 normal tissues, profiled using the Affymetrix Human Genome U133 Plus 2.0 Array. The dataset is widely used for differential gene expression analysis, biomarker discovery, and pathway enrichment studies in breast cancer research
+
 # Tutorial Workflow
 
 1. Data Loading
