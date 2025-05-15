@@ -8,7 +8,7 @@ library(AnnotationDbi)
 # -----------------------------------
 # Step 1: Read Processed Data
 # -----------------------------------
-processed_data <- read.table("data/processed/GSE29431_series_matrix.txt", 
+processed_data <- read.table("data/processed/GSE29431_series_matrix.txt", # Your file path
                              header = TRUE, 
                              sep = "\t", 
                              row.names = 1, 
