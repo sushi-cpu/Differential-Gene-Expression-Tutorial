@@ -5,7 +5,7 @@ library(pheatmap)
 library(ggplot2)
 
 # 01_Load CEL files
-cel_files <- list.celfiles("data/raw/", full.names = TRUE)
+cel_files <- list.celfiles("data/raw/", full.names = TRUE) # your path
 raw_data <- ReadAffy(filenames = cel_files)
 
 # 02_RMA Normalization
