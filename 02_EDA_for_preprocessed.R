@@ -85,7 +85,7 @@ pheatmap(top_genes_annotated,
          annotation_col = annotation_col,
          show_rownames = TRUE, 
          main = "Heatmap of Top 10 Variable Genes",
-         filename = "results/top_variable_genes_heatmap.png",
+         filename = "results/top_variable_genes_heatmap.png", # your file path 
          width = 10,      # width in inches
          height = 6,     # height in inches
          units = "in",   # units for width and height: "in", "cm", or "px"
