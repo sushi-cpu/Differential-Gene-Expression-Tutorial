@@ -13,7 +13,7 @@ library(htmlwidgets)
 # -----------------------------------
 # Step 1: Read and Normalize the CEL Files
 # -----------------------------------
-cel_files <- list.celfiles("data/raw/", full.names = TRUE)
+cel_files <- list.celfiles("data/raw/", full.names = TRUE) # your path
 affy_data <- ReadAffy(filenames = cel_files)
 eset <- rma(affy_data)
 exprs_matrix <- exprs(eset)
